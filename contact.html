@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+	<head>
+		<title>Lunch & Dinner</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/controls.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		<link rel="stylesheet" type="text/css" href="css/two_column_form.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+	</head>
+	<body>
+		<script>
+			window.active_page = 'contact';
+		</script>
+		<div class="header header2">
+		</div>
+		<div class="contact-main">
+			<div class="heading">Contact</div>
+			<div class="headingspace"></div>
+			<form method="POST" id="contact-form">
+			<table class="two-column-form">
+				<tr>
+					<td class="leftcolumn">
+						<div class="input-holder">
+							<input type="text" name="first_name" placeholder="First name"/>
+						</div>
+						<div class="input-holder">
+							<input type="text" name="last_name" placeholder="Last name"/>
+						</div>
+					</td>
+					<td class="rightcolumn">
+						<div class="input-holder">
+							<input type="email" name="email" placeholder="Email"/>
+						</div>
+						<div class="input-holder">
+							<input type="text" name="phone" placeholder="Phone"/>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="input-holder">
+							<textarea name="comment" placeholder="Your Message" rows="4"></textarea>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="yellow-border-button" onclick="$('#contact-form').submit()" >Send Message</div>
+					</td>
+				</tr>
+			</table>
+			</form>
+				
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>

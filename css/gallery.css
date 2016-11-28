@@ -1,0 +1,191 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 7, 2016, 7:00:03 PM
+    Author     : Vladimir
+*/
+
+.gallery-main {
+	background-image: url(images/gallery_bg.png);
+    background-size: cover;
+    background-position: center center;
+	position: relative;
+}
+
+.gallery-main .hover {
+	position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/hover50.png);
+    background-size: cover;
+}
+
+.gallery-main .gallery-intro {
+	position: relative;
+    z-index: 2;
+	background-image: url(images/hover_top_grad.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2% 10% 3% 10%;
+	text-align: center;
+}
+
+.gallery-main .gallery-intro .heading {
+	font-family: SatisfyRegular;
+	color: #fcc828;
+	font-size: 1.5em;
+}
+
+.gallery-main .gallery-intro .headingspace {
+	width: 10%;
+    padding-top: 0.12%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: medium solid white;
+    border-bottom: thick solid white;
+}
+
+.gallery-main .gallery-intro .description {
+	font-size: 0.7em;
+	padding-top: 2%;
+	color: white;
+}
+
+.gallery-main .rig {
+	
+	position: relative;
+	z-index: 2;
+	/*width: 100%;*/
+    margin:0 auto; /*center aligned*/
+    padding: 0 10% 5% 10%;
+    /*font-size:0;  Remember to change it back to normal font size if have captions */
+    list-style:none;
+	/*padding-bottom: 3%;*/
+	
+	background-image: url(images/hover_bottom_grad.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.gallery-main .rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/* The wrapper for each item */
+.gallery-main .rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+
+/* If have the image layer */
+.gallery-main .rig-img {
+    display:block;
+	visibility: visible;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+.gallery-main .rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+
+/* If have the overlay layer */
+.gallery-main .rig .rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #343030 url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+
+.gallery-main .rig li:hover .rig-overlay {
+    opacity:0.7;
+}
+
+/* If have captions 
+.gallery-main .rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);For older IE
+    transform:translateY(-20px);
+    transition:all .3s;
+}*/
+
+.gallery-main .rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+.gallery-main .rig .rig-content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0.5em;
+	padding: 0.5em;
+	border: 0.1em solid #fcc828;
+	opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+	color:white;
+	text-align: center;
+	overflow: hidden;
+	font-size: 100%;
+	
+}
+
+.gallery-main .rig .rig-img-header {
+	text-transform: uppercase;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	font-size: 0.8em;
+}
+
+.gallery-main .rig .rig-img-header .colortext {
+	color: #fcc828;
+}
+
+.gallery-main .rig .rig-img-description {
+	/*font-family: LatoLight;*/
+	font-size: 50%;
+}
+
+.gallery-main .rig li:hover .rig-content {
+    opacity:0.9;
+}

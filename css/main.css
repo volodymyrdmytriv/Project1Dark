@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 1, 2016, 6:52:07 PM
+    Author     : Vladimir
+*/
+
+@font-face {
+    font-family: SatisfyRegular;
+    src: url(fonts/SATISFY-REGULAR.woff);
+}
+@font-face {
+    font-family: GreatVibesRegular;
+    src: url(fonts/GreatVibes-Regular.woff);
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url(fonts/Roboto-Bold.woff);
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url(fonts/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: LatoBlack;
+    src: url(fonts/Lato-Black.woff);
+}
+@font-face {
+    font-family: LatoBold;
+    src: url(fonts/Lato-Bold.woff);
+}
+@font-face {
+    font-family: LatoLight;
+    src: url(fonts/Lato-Light.woff);
+}
+@font-face {
+    font-family: LatoLightItalic;
+    src: url(fonts/Lato-LightItalic.woff);
+}
+@font-face {
+    font-family: LatoRegular;
+    src: url(fonts/Lato-Regular.woff);
+}
+@font-face {
+    font-family: RalewayBlack;
+    src: url(fonts/Raleway-Black.woff);
+}
+@font-face {
+    font-family: FontAwesome;
+    src: url(fonts/fontawesome.woff);
+}
+
+body {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	min-width: 574px;
+	font-family: LatoRegular;
+    color: #6c6c6c;
+    font-size: 0.7em;
+	letter-spacing: 0.06em;
+	
+}
+
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}

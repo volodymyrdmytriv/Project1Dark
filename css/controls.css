@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 25, 2016, 7:38:38 PM
+    Author     : Vladimir
+*/
+
+
+.learn-more-button {
+	letter-spacing: 0px;
+	display: inline-block;
+	padding: 1.5% 2.8% 1.5% 2.8%;
+	border: none;
+	background-color: #fcc828;
+	-webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+	border-radius: 3em;
+	color: #584726;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+.online-reservations-button {
+	letter-spacing: 0px;
+	display: inline-block;
+	padding: 1.2% 4% 1.2% 4%;
+	border: none;
+	background-image: url("images/yellow_transparent_button.png"); 
+	background-size: 100% 100%;
+	background-position: center center;
+	font-size: 0.8em;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: RobotoMedium;
+	letter-spacing: 0.14em;
+}
+.sign-up-button {
+	letter-spacing: 0px;
+	padding: 2.5% 2.8% 2.5% 2.8%;
+	border: none;
+	background-color: #fcc828;
+	-webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+	border-radius: 1.5em;
+	color: #584726;
+	font-size: 0.7em;
+	cursor: pointer;
+	width: 30%;
+	font-family: LatoBold;
+	text-align: center;
+}
+.read-more-button {
+	letter-spacing: 0px;
+	display: inline-block;
+	padding: 3% 12% 3% 3%;
+	border: none;
+	background-image: url("images/read_more_button.png"); 
+	background-size: 100% 100%;
+	background-position: center center;
+	font-size: 0.65em;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: LatoBold;
+	color: #6c6c6c;
+	letter-spacing: 0.14em;
+}
+.yellow-border-button {
+	display: inline-block;
+	border: 0.15em solid #fcc828;
+	padding: 1.5% 4% 1.5% 4%;
+	font-size: 0.8em;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: RobotoMedium;
+	letter-spacing: 0.14em;
+	-webkit-border-radius: 1.5em; /*For Safari, etc.*/
+    -moz-border-radius: 1.5em; /*For Mozilla, etc.*/
+    border-radius: 1.5em; /*CSS3 Feature*/
+	color: #4a4d53;
+}
+select {
+    border:1px solid #fcc828;
+    -webkit-border-radius: 1em; /*For Safari, etc.*/
+    -moz-border-radius: 1em; /*For Mozilla, etc.*/
+    border-radius: 1em; /*CSS3 Feature*/
+	box-sizing: border-box;
+	font-size: 0.7em;
+}
+input, textarea
+{
+	border:1px solid #fcc828;
+    -webkit-border-radius: 1em; /*For Safari, etc.*/
+    -moz-border-radius: 1em; /*For Mozilla, etc.*/
+    border-radius: 1em; /*CSS3 Feature*/
+	box-sizing: border-box;
+	resize: none;
+	font-size: 0.7em;
+}
+input[type='datetime-local']
+{
+	font-size: 0.55em;
+}

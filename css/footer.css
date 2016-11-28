@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 25, 2016, 9:16:11 PM
+    Author     : Vladimir
+*/
+
+#footer {
+	font-family: LatoLight;
+	width: 100%;
+	height: 100%;
+	background-color: #282624;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: left;
+	color: #c6c6c6;
+	
+}
+
+#footer .copyright {
+	height: 15%;
+}
+
+#footer th, 
+#footer .sign-up-block .login-header {
+	font-family: LatoBlack;
+	color: white;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+}
+
+#footer th.about, #footer th.latest-news, #footer th.sign-up {
+	width: 33%;
+}
+
+#footer th, #footer td {
+	vertical-align: top;
+}
+
+#copyright {
+	font-family: LatoLight;
+	background-color: #282624;
+	padding-left: 10%;
+	padding-right: 15%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: #ebebeb;
+	font-size: 0.5em;
+	border-top: 1px solid #343332;
+	border-bottom: 1px solid #343332;
+}
+
+#copyright .share-button {
+	float: right;
+	height: auto;
+	width: 2.5%;
+	padding-left: 1%;
+	margin-top: -0.5%;
+	cursor: pointer;
+}
+
+#footer .info-block {
+	font-size: 0.6em;
+	padding-bottom: 4%;
+}
+
+#footer .contact-block {
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+#footer .opening-hours-header {
+	font-family: LatoBlack;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+}
+
+#footer .opening-hours {
+	letter-spacing: 0.14em;
+}
+
+#footer .contact-icon {
+	width: 4%;
+	height: auto;
+	margin-right: 2%;
+}
+
+#footer .address-icon {
+	width: 2.5%;
+	margin-right: 3.5%;
+}
+
+#footer .vert-line {
+	border-left: 1px solid #343332;
+	padding-right: 2.5%;
+}
+
+#footer .about-us-block,
+#footer .latest-news-blocka {
+	padding-right: 2.5%;
+}
+
+#footer .latest-news-item {
+	font-size: 0.6em;
+	letter-spacing: 0.1em;
+	display: table;
+	padding-bottom: 3%;
+	width: 100%;
+}
+
+#footer .latest-news-item .news-image {
+	width: 10%;
+	height: 100%;
+	display: table-cell;
+	padding: 0 2% 0 0;
+}
+
+#footer .latest-news-item .news-image > img {
+	width: 100%;
+	height: auto;
+}
+
+#footer .latest-news-item .news-content {
+	width: 0.9em;
+	display: table-cell;
+	vertical-align: top;
+}
+
+#footer .latest-news-item .news-header {
+	font-family: LatoBold;
+	color: white;
+}
+
+#footer .latest-news-item .news-text {
+	
+	
+}
+
+#footer .sign-up-field {
+	padding: 2.5% 3.8% 2.5% 3.8%;
+    border: none;
+    background-color: #565656;
+    
+	color: #c6c6c6;
+	font-family: LatoLightItalic;
+	width: 50%;
+	font-size: 0.7em;
+	outline: none;
+}
+
+#footer .sign-up-block > div {
+	padding-bottom: 5%;
+}
+
+#footer .sign-up-block .login-header {
+	padding-top: 2%;
+}

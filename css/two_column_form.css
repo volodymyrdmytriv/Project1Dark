@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 27, 2016, 2:41:23 PM
+    Author     : Vladimir
+*/
+
+
+.two-column-form {
+	width: 100%;
+	padding-top: 4%;
+}
+
+.two-column-form .leftcolumn {
+	width: 50%;
+	padding-right: 1%;
+}
+
+.two-column-form .rightcolumn {
+	width: 50%;
+	padding-left: 1%;
+}
+
+.two-column-form .input-holder input, 
+.two-column-form .input-holder textarea  {
+	
+	padding: 0.6em;
+	width: 100%;
+}
+.two-column-form .input-holder select {
+	padding: 0.6em 0.6em 0.6em 0;
+	text-indent: 0.3em;
+	line-height: 2em;
+	width: 100%;
+}
+
+.two-column-form .input-holder {
+	padding-bottom: 2%;
+}

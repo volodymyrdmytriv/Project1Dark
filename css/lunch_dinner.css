@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 25, 2016, 11:45:40 AM
+    Author     : Vladimir
+*/
+
+.lunch-dinner {
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 4%;
+}
+
+.lunch-dinner .headings {
+	padding-top: 2.5%;
+	letter-spacing: 0.13em;
+	font-size: 1.5em;
+}
+
+.lunch-dinner .heading1 {
+	font-family: SatisfyRegular;
+	font-size: 1.5em;
+	color: #e0b226;
+}
+
+.lunch-dinner .headingspace {
+	width: 10%;
+	padding-top: 0.12%;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: medium solid #585757;
+	border-bottom: thick solid #585757;
+}
+
+.lunch-dinner .heading2 {
+	padding-top: 1.5%;
+	font-family: LatoBlack;
+	color: #2c2c2b;
+}
+
+.lunch-dinner .heading3 {
+	font-family: LatoRegular;
+	color: #b0b0b0;
+	font-size: 0.5em;
+}
+
+.lunch-dinner .hspace10 {
+	width: 10%;
+}
+
+.lunch-dinner .hours-info {
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	position:relative;
+}
+
+.lunch-dinner .hours-info, .lunch-dinner .hours-info>div {
+	height: 100%;
+}
+
+.lunch-dinner .hours-info1, .lunch-dinner .hours-info2 {
+	width: 30%;
+	vertical-align: top;
+}
+
+.lunch-dinner .image {
+	width: 100%;
+	height: 7em;
+}
+
+.lunch-dinner .hours-info1 .image {
+	background-image: url("images/meat1.png"); 
+	background-size: cover;
+	background-position: center center;
+}
+
+.lunch-dinner .hours-info2 .image {
+	background-image: url("images/meat2.png"); 
+	background-size: cover;
+	background-position: center center;	
+}
+
+.lunch-dinner .hours-info .textinfo-container {
+	background-image: url("images/yellowbox.png"); 
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.lunch-dinner .hours-info .icon {
+	position: absolute;
+	z-index: 1;
+	right: 5%;
+	bottom: 1%;
+	width: 40%;
+	height: 40%;
+}
+
+.lunch-dinner .hours-info1 .icon {
+	background-image: url("images/lunchicon.png"); 
+	background-size: 100% 100%;
+	background-position: left top;
+}
+
+.lunch-dinner .hours-info2 .icon {
+	background-image: url("images/meetingsicon.png"); 
+	background-size: 100% 100%;
+	background-position: left top;
+}
+
+.lunch-dinner .hours-info .textinfo {
+	position: relative;
+	z-index: 2;
+	color: #585757;
+	padding: 4% 5% 3% 6%;
+	text-align: left;
+}
+
+.lunch-dinner .hours-info .hours-header {
+	font-family: SatisfyRegular;
+	font-size: 140%;
+}
+
+.lunch-dinner .hours-info .description {
+	font-family: LatoRegular;
+	font-size: 0.7em;
+	margin: 5% 0 2% 0;
+}
+
+.lunch-dinner .hours-info .gabel-icon, .lunch-dinner  .hours-info .timer-icon {
+	padding-right: 3.2%;
+}
+
+.lunch-dinner .hours-info .gabel-icon {
+	float: left;
+	width: 5%;
+	height: auto;
+}
+
+.lunch-dinner .hours-info .timer-icon {
+	float: left;
+	margin-top: 1.2%;
+	width: 5%;
+	height: auto;
+}
+
+/* Main content css */ 
+
+.lunchdinner-main .lunch-intro {
+	padding: 2% 10% 3% 10%;
+	text-align: center;
+}
+
+.lunchdinner-main .lunch-table-image {
+	width: 100%;
+	height: auto;
+}
+
+.lunchdinner-main .heading {
+	font-family: SatisfyRegular;
+	color: #fcc828;
+	font-size: 1.5em;
+}
+
+.lunchdinner-main .headingspace {
+	width: 10%;
+    padding-top: 0.12%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: medium solid #585757;
+    border-bottom: thick solid #585757;
+}
+
+.lunchdinner-main .description {
+	font-size: 0.7em;
+	padding-top: 2%;
+}
+
+.lunchdinner-main .lunch-table-container {
+	position: relative;
+}
+
+.lunchdinner-main .lunch-table {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 6% 7% 4% 7%;
+	text-align: center;
+}
+
+.lunchdinner-main .lunch-table > div {
+	display: inline-block;
+	width: 30%;
+}
+
+.lunchdinner-main .food-plate {
+	background-image: url('images/plate_shadow.png');
+	background-size: cover;
+}
+
+.lunchdinner-main .food-plate1 {
+	width: 90%;
+	height: auto;
+}
+
+.lunchdinner-main .food-plate2 {
+	width: 90%;
+	height: auto;
+}
+
+.lunchdinner-main .food-description {
+	background-color:rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-family: LatoLight;
+	font-size: 0.6em;
+	color: white;
+	vertical-align: top;
+	padding: 2%;
+	width: 20%;
+	margin: 0 2% 0 2%;
+}
+
+.lunchdinner-main .food-icon {
+	width: 25%;
+	height: auto;
+}
+
+.lunchdinner-main .stars {
+	margin-top: 5%;
+}
+
+.lunchdinner-main .star {
+	width: 5%;
+	height: auto;
+}
+
+.lunchdinner-main .description-text {
+	margin-top: 5%;
+}

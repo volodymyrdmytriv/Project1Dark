@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2016, 12:29:51 PM
+    Author     : Vladimir
+*/
+.philosophy-main {
+	display: table;
+	text-align: left;
+	width: 100%;
+	padding-top: 2%;
+}
+
+.philosophy-main .philosophy-text {
+	display: table-cell;
+	width: 45%;
+	vertical-align: top;
+	padding: 0% 5% 0% 10%;
+	letter-spacing: 0.06em;
+}
+.philosophy-main .philosophy-header {
+	font-family: SatisfyRegular;
+    color: #fcc828;
+    font-size: 1.8em;
+}
+.philosophy-main .philosophy-description {
+	text-align: center;
+	margin-top: 10%;
+}
+.philosophy-main .philosophy-description2 {
+	margin-top: 5%;
+	font-size: 0.7em;	
+}
+.philosophy-main .chief-cap-middle-image {
+	width: 10%;
+    height: auto;
+}
+.philosophy-main .chief-stars {
+	margin-top: 2%;
+}
+.philosophy-main .chief-star {
+	width: 5%;
+    height: auto;
+	margin: 0 1% 0 1%;
+}
+.philosophy-main .philosophy-text .solid-lines {
+    width: 16%;
+    padding-top: 0.1em;
+    border-top: medium solid #585757;
+    border-bottom: thick solid #585757;
+}
+.philosophy-main .chef-signature {
+	margin-top: 8%;
+	font-size: 1.2em;
+	font-family: SatisfyRegular;
+	-ms-transform: rotate(-18deg);
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+	color: #171717;
+}
+.philosophy-main .chef-name {
+	font-family: LatoBold;
+	margin-top: 4%;
+	font-size: 0.8em;
+	color: #6c6c6c;
+}
+.philosophy-main .cooker-role {
+	font-family: LatoRegular;
+	color: #6c6c6c;
+	font-size: 0.6em;
+}
+
+.philosophy-main .philosophy-image {
+	display: table-cell;
+	width: 45%;
+	text-align: center;
+	vertical-align: bottom;
+	padding: 0% 10% 0% 0%;
+}
+.philosophy-main .chef-image {
+	width: 60%;
+    height: auto;
+	margin-bottom: -1%;
+}

@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 24, 2016, 12:24:29 PM
+    Author     : Vladimir
+*/
+
+.reservations-main {
+	padding: 2% 25% 3% 25%;
+	text-align: center;
+}
+
+.reservations-main .heading {
+	font-family: SatisfyRegular;
+	color: #fcc828;
+	font-size: 1.5em;
+}
+
+.reservations-main .headingspace {
+	width: 10%;
+    padding-top: 0.12%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: medium solid #585757;
+    border-bottom: thick solid #585757;
+}
