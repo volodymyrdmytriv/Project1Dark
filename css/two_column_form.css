@@ -11,17 +11,24 @@ and open the template in the editor.
 
 .two-column-form {
 	width: 100%;
-	padding-top: 4%;
+	padding-top: 1.5em;
+}
+
+.two-column {
+	display: table;
+	width: 100%;
 }
 
 .two-column-form .leftcolumn {
+	display: table-cell;
 	width: 50%;
-	padding-right: 1%;
+	padding-right: 0.3em;
 }
 
 .two-column-form .rightcolumn {
+	display: table-cell;
 	width: 50%;
-	padding-left: 1%;
+	padding-left: 0.3em;
 }
 
 .two-column-form .input-holder input, 
@@ -38,5 +45,5 @@ and open the template in the editor.
 }
 
 .two-column-form .input-holder {
-	padding-bottom: 2%;
+	padding-bottom: 0.5em;
 }

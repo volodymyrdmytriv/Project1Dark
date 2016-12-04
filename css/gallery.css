@@ -30,7 +30,7 @@ and open the template in the editor.
 	background-image: url(images/hover_top_grad.png);
     background-size: cover;
 	background-repeat: no-repeat;
-	padding: 2% 10% 3% 10%;
+	padding: 2em 7em 2em 7em;
 	text-align: center;
 }
 
@@ -41,8 +41,8 @@ and open the template in the editor.
 }
 
 .gallery-main .gallery-intro .headingspace {
-	width: 10%;
-    padding-top: 0.12%;
+	width: 5.5em;
+    padding-top: 0.1em;
     margin-left: auto;
     margin-right: auto;
     border-top: medium solid white;
@@ -51,7 +51,7 @@ and open the template in the editor.
 
 .gallery-main .gallery-intro .description {
 	font-size: 0.7em;
-	padding-top: 2%;
+	padding-top: 2em;
 	color: white;
 }
 
@@ -61,7 +61,7 @@ and open the template in the editor.
 	z-index: 2;
 	/*width: 100%;*/
     margin:0 auto; /*center aligned*/
-    padding: 0 10% 5% 10%;
+    padding: 0 7em 3em 7em;
     /*font-size:0;  Remember to change it back to normal font size if have captions */
     list-style:none;
 	/*padding-bottom: 3%;*/
@@ -172,8 +172,8 @@ and open the template in the editor.
 
 .gallery-main .rig .rig-img-header {
 	text-transform: uppercase;
-	margin-top: 1%;
-	margin-bottom: 2%;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
 	font-size: 0.8em;
 }
 
@@ -183,7 +183,7 @@ and open the template in the editor.
 
 .gallery-main .rig .rig-img-description {
 	/*font-family: LatoLight;*/
-	font-size: 50%;
+	font-size: 0.5em;
 }
 
 .gallery-main .rig li:hover .rig-content {

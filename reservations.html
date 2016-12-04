@@ -32,9 +32,9 @@ and open the template in the editor.
 			<div class="heading">Reservations</div>
 			<div class="headingspace"></div>
 			<form method="POST" id="reservations-form">
-			<table class="two-column-form">
-				<tr>
-					<td class="leftcolumn">
+			<div class="two-column-form">
+				<div class="two-column">
+					<div class="leftcolumn">
 						<div class="input-holder">
 							<input class="flatpickr" type="text" name="datetime" placeholder="Date And Time" />
 						</div>
@@ -44,8 +44,8 @@ and open the template in the editor.
 						<div class="input-holder">
 							<input type="text" name="last_name" placeholder="Last name"/>
 						</div>
-					</td>
-					<td class="rightcolumn">
+					</div>
+					<div class="rightcolumn">
 						<div class="input-holder">
 							<select name="persons" placeholder="Select Persons">
 								<option value="">Select Persons</option>
@@ -60,21 +60,17 @@ and open the template in the editor.
 						<div class="input-holder">
 							<input type="text" name="phone" placeholder="Phone"/>
 						</div>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<div class="input-holder">
-							<textarea name="comment" placeholder="Comment" rows="4"></textarea>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<div class="yellow-border-button" onclick="$('#reservations-form').submit()" >Send Request</div>
-					</td>
-				</tr>
-			</table>
+					</div>
+				</div>
+				<div>
+					<div class="input-holder">
+						<textarea name="comment" placeholder="Comment" rows="4"></textarea>
+					</div>
+				</div>
+				<div>
+					<div class="yellow-border-button" onclick="$('#reservations-form').submit()" >Send Request</div>
+				</div>
+			</div>
 			</form>
 				
 		</div>

@@ -28,38 +28,34 @@ and open the template in the editor.
 			<div class="heading">Contact</div>
 			<div class="headingspace"></div>
 			<form method="POST" id="contact-form">
-			<table class="two-column-form">
-				<tr>
-					<td class="leftcolumn">
+			<div class="two-column-form">
+				<div class="two-column">
+					<div class="leftcolumn">
 						<div class="input-holder">
 							<input type="text" name="first_name" placeholder="First name"/>
 						</div>
 						<div class="input-holder">
 							<input type="text" name="last_name" placeholder="Last name"/>
 						</div>
-					</td>
-					<td class="rightcolumn">
+					</div>
+					<div class="rightcolumn">
 						<div class="input-holder">
 							<input type="email" name="email" placeholder="Email"/>
 						</div>
 						<div class="input-holder">
 							<input type="text" name="phone" placeholder="Phone"/>
 						</div>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<div class="input-holder">
-							<textarea name="comment" placeholder="Your Message" rows="4"></textarea>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<div class="yellow-border-button" onclick="$('#contact-form').submit()" >Send Message</div>
-					</td>
-				</tr>
-			</table>
+					</div>
+				</div>
+				<div>
+					<div class="input-holder">
+						<textarea name="comment" placeholder="Your Message" rows="4"></textarea>
+					</div>
+				</div>
+				<div>
+					<div class="yellow-border-button" onclick="$('#contact-form').submit()" >Send Message</div>
+				</div>
+			</div>
 			</form>
 				
 		</div>
