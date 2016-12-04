@@ -9,42 +9,45 @@ and open the template in the editor.
 */
 
 .header .intro {
-	height: 70%;
-	margin-left: 20%;
-	margin-right: 20%;
+	height: 11.5em;
+	margin-left: 10em;
+	margin-right: 10em;
 	text-align: center;
 	color: white;
 	text-shadow: 2px 3px #000000;
 	vertical-align: middle;
+	display: table;
 }
 
-.header .intro .spacing2 {
-	height: 10%;
+.header .intro .intro-content {
+	display: table-cell;
+	vertical-align: middle;
+	overflow: hidden;
 }
 
 .header .intro .restaurant-name{
+	padding-top: 0.2em;
 	font-size: 3.5em;
-	vertical-align: bottom;
+	vertical-align: middle;
 }
 
 .header .intro .intro-header {
-	height: 20%;
-	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 0.2em;
 	font-family: RobotoBold;
-	font-size: 2em;
+	font-size: 1.7em;
 }
 .header .intro .intro-description {
-	height: 25%;
 	font-family: RobotoMedium;
 	font-size: 0.9em;
 	line-height: 150%;
 }
 
-.header .intro .intro-href {
-	height: 25%;
+.header .intro-href {
+	margin-top: 0.3em;
 	text-shadow: none;
 	font-family: RobotoBold;
 	text-transform: uppercase;
+	text-align: center;
 }

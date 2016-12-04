@@ -8,26 +8,34 @@ and open the template in the editor.
     Author     : Vladimir
 */
 
-#footer {
+.footer .footer-blocks {
 	font-family: LatoLight;
-	width: 100%;
-	height: 100%;
 	background-color: #282624;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-left: 6em;
+	padding-right: 6em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	text-align: left;
 	color: #c6c6c6;
 	
 }
 
-#footer .copyright {
-	height: 15%;
+.footer .footer-block {
+	display: inline-block;
+	width: 16em;
+	vertical-align: top;
 }
 
-#footer th, 
-#footer .sign-up-block .login-header {
+.footer .footer-block .footer-block-header{
+	height: 3.5em;
+}
+
+.footer .footer-block-cont {
+	line-height: 1em;
+}
+
+.footer .footer-block-header ,
+.footer .footer-block-cont.sign-up-block .login-header {
 	font-family: LatoBlack;
 	color: white;
 	font-size: 0.7em;
@@ -35,115 +43,88 @@ and open the template in the editor.
 	letter-spacing: 0.14em;
 }
 
-#footer th.about, #footer th.latest-news, #footer th.sign-up {
-	width: 33%;
+.footer .about-us-block,
+.footer .latest-news-block {
+	padding-right: 2em;
 }
 
-#footer th, #footer td {
-	vertical-align: top;
-}
-
-#copyright {
-	font-family: LatoLight;
-	background-color: #282624;
-	padding-left: 10%;
-	padding-right: 15%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	color: #ebebeb;
-	font-size: 0.5em;
-	border-top: 1px solid #343332;
-	border-bottom: 1px solid #343332;
-}
-
-#copyright .share-button {
-	float: right;
-	height: auto;
-	width: 2.5%;
-	padding-left: 1%;
-	margin-top: -0.5%;
-	cursor: pointer;
-}
-
-#footer .info-block {
+.footer .info-block {
 	font-size: 0.6em;
-	padding-bottom: 4%;
+	padding-bottom: 1em;
 }
 
-#footer .contact-block {
-	padding-bottom: 1%;
-	padding-top: 1%;
-}
-
-#footer .opening-hours-header {
+.footer .opening-hours-header {
 	font-family: LatoBlack;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 0.14em;
 }
 
-#footer .opening-hours {
+.footer .contact-icon {
+	width: 1em;
+	height: auto;
+	margin-right: 1em;
+}
+
+.footer .address-icon {
+	width: 0.8em;
+	float: left;
+	margin-right: 1.2em;
+	margin-bottom: 1em;
+}
+
+.footer .opening-hours {
 	letter-spacing: 0.14em;
 }
 
-#footer .contact-icon {
-	width: 4%;
-	height: auto;
-	margin-right: 2%;
+.footer .vert-line {
+	display: inline-block;
+	border-left: 0.1em solid #343332;
+	margin-top: 2.4em;
+	margin-right: 1.5em;
+	height: 14em;
 }
 
-#footer .address-icon {
-	width: 2.5%;
-	margin-right: 3.5%;
-}
-
-#footer .vert-line {
-	border-left: 1px solid #343332;
-	padding-right: 2.5%;
-}
-
-#footer .about-us-block,
-#footer .latest-news-blocka {
-	padding-right: 2.5%;
-}
-
-#footer .latest-news-item {
+.footer .latest-news-item {
 	font-size: 0.6em;
 	letter-spacing: 0.1em;
 	display: table;
-	padding-bottom: 3%;
+	padding-bottom: 0.5em;
 	width: 100%;
 }
 
-#footer .latest-news-item .news-image {
-	width: 10%;
+.footer .latest-news-item .news-image {
+	width: 15%;
 	height: 100%;
 	display: table-cell;
-	padding: 0 2% 0 0;
+	padding: 0 1em 0 0;
 }
 
-#footer .latest-news-item .news-image > img {
+.footer .latest-news-item .news-image > img {
 	width: 100%;
 	height: auto;
 }
 
-#footer .latest-news-item .news-content {
+.footer .latest-news-item .news-content {
 	width: 0.9em;
 	display: table-cell;
 	vertical-align: top;
 }
 
-#footer .latest-news-item .news-header {
+.footer .latest-news-item .news-header {
 	font-family: LatoBold;
 	color: white;
 }
 
-#footer .latest-news-item .news-text {
-	
-	
+.footer .sign-up-block > div {
+	padding-bottom: 0.7em;
 }
 
-#footer .sign-up-field {
+.footer .sign-up-block .login-header {
+	padding-top: 1em;
+}
+
+.footer .sign-up-field {
 	padding: 2.5% 3.8% 2.5% 3.8%;
     border: none;
     background-color: #565656;
@@ -155,10 +136,24 @@ and open the template in the editor.
 	outline: none;
 }
 
-#footer .sign-up-block > div {
-	padding-bottom: 5%;
+.copyright {
+	font-family: LatoLight;
+	background-color: #282624;
+	padding-left: 11em;
+    padding-right: 13em;
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
+	color: #ebebeb;
+	font-size: 0.5em;
+	border-top: 1px solid #343332;
+	border-bottom: 1px solid #343332;
 }
 
-#footer .sign-up-block .login-header {
-	padding-top: 2%;
+.copyright .share-button {
+	float: right;
+	height: auto;
+	width: 2.8em;
+	padding-left: 1em;
+	margin-top: -0.8em;
+	cursor: pointer;
 }

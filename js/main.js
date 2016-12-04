@@ -5,10 +5,6 @@
  */
 
 var FONT_SIZE_INDEX = 0.015;
-var HEADER_HEIGHT_INDEX = 0.32;
-var HEADER2_HEIGHT_INDEX = 0.15;
-var RESERVATIONS_HEIGHT_INDEX = 0.25;
-var FOOTER_HEIGHT_INDEX = 0.25;
 
 function onLoaded() {
 
@@ -19,15 +15,8 @@ function onLoaded() {
 		var $reservations_block = $('.reservations-block');
 		var $footer = $('.footer');
 		
-		$body.css('font-size', $body.width()*FONT_SIZE_INDEX+'px');
-		if($header.hasClass('header2')) {
-			$header.css('height', Math.round($body.width()*HEADER2_HEIGHT_INDEX)+'px');
-		}
-		else{
-			$header.css('height', Math.round($body.width()*HEADER_HEIGHT_INDEX)+'px');
-		}
-		$reservations_block.css('height', Math.round($body.width()*RESERVATIONS_HEIGHT_INDEX)+'px');
-		$footer.css('height', Math.round($body.width()*FOOTER_HEIGHT_INDEX)+'px');
+		//$body.css('font-size', $body.width()*FONT_SIZE_INDEX+'px');
+		
 	}
 
 	$(window).unbind('resize').on('resize', function() {

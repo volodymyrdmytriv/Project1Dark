@@ -7,6 +7,11 @@ and open the template in the editor.
     Created on : Oct 25, 2016, 7:06:39 PM
     Author     : Vladimir
 */
+
+.reservations-block {
+	height: 16em;
+}
+
 .reservations-block {
     overflow-y: hidden;
     background-image: url(images/reservationsimage.png);
@@ -14,6 +19,7 @@ and open the template in the editor.
     background-position: center center;
     position: relative;
 	color: white;
+	text-align: center;
 }
 .reservations-block .hover {
 	position: absolute;
@@ -39,24 +45,27 @@ and open the template in the editor.
 	font-size: 2em;
 }
 .reservations-table .solidlines {
-	width: 10%;
-	padding-top: 0.12%;
+	width: 6em;
+	padding-top: 0.12em;
 	margin-left: auto;
 	margin-right: auto;
 	border-top: medium solid white;
 	border-bottom: thick solid white;
 }
 .reservations-table .heading1 td {
-	padding-top: 2%;
+	padding-top: 0.5em;
 	padding-bottom: 0;
 	vertical-align: bottom;
 }
 .reservations-table .reservate td {
-	padding-bottom: 2%;
+	padding-bottom: 1em;
 }
 .reservations-table .heading2 {
 	font-family: RalewayBlack;
 }
 .reservations-table .heading3 {
 	font-family: LatoRegular;
+}
+.reservations-table .heading2 td, .reservations-table .heading3 td {
+	padding: 0 7em 0 7em;
 }

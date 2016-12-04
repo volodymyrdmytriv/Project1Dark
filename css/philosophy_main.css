@@ -11,14 +11,14 @@ and open the template in the editor.
 	display: table;
 	text-align: left;
 	width: 100%;
-	padding-top: 2%;
+	padding-top: 2em;
 }
 
 .philosophy-main .philosophy-text {
 	display: table-cell;
 	width: 45%;
 	vertical-align: top;
-	padding: 0% 5% 0% 10%;
+	padding: 0% 4em 0% 7em;
 	letter-spacing: 0.06em;
 }
 .philosophy-main .philosophy-header {
@@ -28,32 +28,32 @@ and open the template in the editor.
 }
 .philosophy-main .philosophy-description {
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 2em;
 }
 .philosophy-main .philosophy-description2 {
-	margin-top: 5%;
-	font-size: 0.7em;	
+	margin-top: 1.5em;
+	font-size: 0.7em;
 }
 .philosophy-main .chief-cap-middle-image {
-	width: 10%;
+	width: 3em;
     height: auto;
 }
 .philosophy-main .chief-stars {
-	margin-top: 2%;
+	margin-top: 1em;
 }
 .philosophy-main .chief-star {
-	width: 5%;
+	width: 1.5em;
     height: auto;
-	margin: 0 1% 0 1%;
+	margin: 0 0.2em 0 0.2em;
 }
 .philosophy-main .philosophy-text .solid-lines {
-    width: 16%;
+    width: 4em;
     padding-top: 0.1em;
     border-top: medium solid #585757;
     border-bottom: thick solid #585757;
 }
 .philosophy-main .chef-signature {
-	margin-top: 8%;
+	margin-top: 2em;
 	font-size: 1.2em;
 	font-family: SatisfyRegular;
 	-ms-transform: rotate(-18deg);
@@ -63,14 +63,14 @@ and open the template in the editor.
 }
 .philosophy-main .chef-name {
 	font-family: LatoBold;
-	margin-top: 4%;
+	margin-top: 1.5em;
 	font-size: 0.8em;
 	color: #6c6c6c;
 }
 .philosophy-main .cooker-role {
 	font-family: LatoRegular;
 	color: #6c6c6c;
-	font-size: 0.6em;
+	font-size: 0.7em;
 }
 
 .philosophy-main .philosophy-image {
@@ -78,10 +78,10 @@ and open the template in the editor.
 	width: 45%;
 	text-align: center;
 	vertical-align: bottom;
-	padding: 0% 10% 0% 0%;
+	padding: 0 7em 0 0;
 }
 .philosophy-main .chef-image {
 	width: 60%;
     height: auto;
-	margin-bottom: -1%;
+	margin-bottom: -0.5em;
 }

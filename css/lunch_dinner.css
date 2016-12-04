@@ -12,11 +12,11 @@ and open the template in the editor.
 	width: 100%;
 	text-align: center;
 	vertical-align: middle;
-	padding-bottom: 4%;
+	padding-top: 1.5em;
+	padding-bottom: 3.5em;
 }
 
 .lunch-dinner .headings {
-	padding-top: 2.5%;
 	letter-spacing: 0.13em;
 	font-size: 1.5em;
 }
@@ -28,8 +28,8 @@ and open the template in the editor.
 }
 
 .lunch-dinner .headingspace {
-	width: 10%;
-	padding-top: 0.12%;
+	width: 4em;
+	padding-top: 0.07em;
 	margin-left: auto;
 	margin-right: auto;
 	border-top: medium solid #585757;
@@ -37,7 +37,7 @@ and open the template in the editor.
 }
 
 .lunch-dinner .heading2 {
-	padding-top: 1.5%;
+	padding-top: 0.6em;
 	font-family: LatoBlack;
 	color: #2c2c2b;
 }
@@ -48,23 +48,15 @@ and open the template in the editor.
 	font-size: 0.5em;
 }
 
-.lunch-dinner .hspace10 {
-	width: 10%;
-}
-
 .lunch-dinner .hours-info {
-	padding-top: 3%;
-	padding-left: 3%;
-	padding-right: 3%;
-	position:relative;
-}
-
-.lunch-dinner .hours-info, .lunch-dinner .hours-info>div {
-	height: 100%;
+	text-align: center;
 }
 
 .lunch-dinner .hours-info1, .lunch-dinner .hours-info2 {
-	width: 30%;
+	position: relative;
+	display: inline-block;
+	margin: 2em 2em 0 2em;
+	width: 22em;
 	vertical-align: top;
 }
 
@@ -86,18 +78,24 @@ and open the template in the editor.
 }
 
 .lunch-dinner .hours-info .textinfo-container {
-	background-image: url("images/yellowbox.png"); 
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background-color: #FCC828;
+	
+	-webkit-border-bottom-left-radius: 2em; /*For Safari, etc.*/
+    -moz-border-bottom-left-radius: 2em; /*For Mozilla, etc.*/
+    border-bottom-left-radius: 2em; /*CSS3 Feature*/
+	-webkit-border-bottom-right-radius: 2em; /*For Safari, etc.*/
+    -moz-border-bottom-right-radius: 2em; /*For Mozilla, etc.*/
+    border-bottom-right-radius: 2em; /*CSS3 Feature*/
+	border: none;
 }
 
 .lunch-dinner .hours-info .icon {
 	position: absolute;
 	z-index: 1;
-	right: 5%;
-	bottom: 1%;
-	width: 40%;
-	height: 40%;
+	right: 0;
+	bottom: 0;
+	width: 10em;
+	height: 10em;
 }
 
 .lunch-dinner .hours-info1 .icon {
@@ -116,35 +114,35 @@ and open the template in the editor.
 	position: relative;
 	z-index: 2;
 	color: #585757;
-	padding: 4% 5% 3% 6%;
+	padding: 1.3em;
 	text-align: left;
 }
 
 .lunch-dinner .hours-info .hours-header {
 	font-family: SatisfyRegular;
-	font-size: 140%;
+	font-size: 1.4em;
 }
 
 .lunch-dinner .hours-info .description {
 	font-family: LatoRegular;
 	font-size: 0.7em;
-	margin: 5% 0 2% 0;
+	margin: 0.8em 0 0.5em 0;
 }
 
 .lunch-dinner .hours-info .gabel-icon, .lunch-dinner  .hours-info .timer-icon {
-	padding-right: 3.2%;
+	padding-right: 1em;
 }
 
 .lunch-dinner .hours-info .gabel-icon {
 	float: left;
-	width: 5%;
+	width: 1.3em;
 	height: auto;
 }
 
 .lunch-dinner .hours-info .timer-icon {
 	float: left;
-	margin-top: 1.2%;
-	width: 5%;
+	margin-top: 0.3em;
+	width: 1.3em;
 	height: auto;
 }
 

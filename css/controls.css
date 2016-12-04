@@ -12,7 +12,7 @@ and open the template in the editor.
 .learn-more-button {
 	letter-spacing: 0px;
 	display: inline-block;
-	padding: 1.5% 2.8% 1.5% 2.8%;
+	padding: 0.7em 1.5em 0.7em 1.5em;
 	border: none;
 	background-color: #fcc828;
 	-webkit-border-radius: 3em;
@@ -54,7 +54,7 @@ and open the template in the editor.
 .read-more-button {
 	letter-spacing: 0px;
 	display: inline-block;
-	padding: 3% 12% 3% 3%;
+	padding: 1.2em 4.5em 1.2em 1.5em;
 	border: none;
 	background-image: url("images/read_more_button.png"); 
 	background-size: 100% 100%;
